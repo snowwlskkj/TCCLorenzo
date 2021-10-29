@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:5;
+    box-sizing: border-box;
+    font-family: Verdana, Gevana, Tahoma, sens-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+    padding:20px;
+}
+
+
+.logo{
+    width:63%;
+    border-color: black;
+    height:28%
+}
+
+.menu{
+    width:90%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+
+.piano {
+  text-align: center;
+  color: white;
+  font-family: Verdana, Gevana, Tahoma, sens-serif;
+}
+
+body {background-color: black;}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: Black;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+
+  .video {
+    text-align: center;
+  }
+
+  .video1 {
+    text-align: center;
+  }
+
+  .video2 {
+    text-align: right;
+  }
+
+  .q {
+    background-image: url("../images/preto");
+  }
+  
+  .w {
+    background-image: url("images/kick.png");
+  }
+  
+  .e {
+    background-image: url("images/snare.png");
+  }
+  
+  .r {
+    background-image: url("images/tom1.png");
+  }
+  
+  .t {
+    background-image: url("images/tom2.png");
+  }
+  
+  .y {
+    background-image: url("images/tom3.png");
+  }
+  
+  .u {
+    background-image: url("images/tom4.png");
+  }
